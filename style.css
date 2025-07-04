@@ -1,0 +1,236 @@
+/*HTML*/
+
+html {
+    scroll-padding-top: 80px;
+}
+
+/* Body */
+
+body{
+    background-color: rgb(209, 224, 224);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Logo et Titre */
+#brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Liens du menu */
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Changer la couleur des liens au survol */
+.navbar-nav .nav-link:hover {
+    color: #0b64a0 !important;
+}
+
+/* Changer la couleur du lien actif */
+.navbar-nav .nav-link:focus {
+    color: #121113 !important; 
+}
+
+
+/* bouton de connexion */
+#login {
+    font-size: 18px;
+    padding: 8px 15px;
+    margin-right: 6%;
+    font-weight: bold;
+}
+
+
+/* L'image principale */
+
+#mainImage
+{
+    height: 500px;
+    margin: 70px auto;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    height: 500px; /* Ajuste la hauteur selon ton design */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.2); /* Fond semi-transparent pour le texte */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Change la couleur des flèches en blanc */
+}
+
+
+/* L'accueil */
+#accueil{
+    margin-top: 20px;
+
+}
+#accueil h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 50px 0px 0px 0px;
+    text-shadow: 1px 1px 1px rgb(84, 31, 230);
+    margin-top: 100px;
+
+}
+#accueil p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.paraphe{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    background: rgb(162, 129, 253);
+    border-radius: 10px;
+}
+
+/* Le Premier bouton*/
+.button1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+}
+.btn-info:hover{
+    background-color: black;
+    color: white;
+}
+
+/* La ligne qui separe les services et le temoignage*/
+.divider{
+    width: 300px;
+    height: 2px;
+    background: rgb(84, 31, 230);
+    margin: 20px auto;
+}
+
+/*Services*/
+
+#services{
+    margin-top: 60px;
+    background-color: rgb(237, 241, 241);
+    text-align: center;
+}
+#services h1{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#services h2{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+#services .col-md-4{
+  
+    border: 5px solid rgb(237, 241, 241) ;
+    border-radius: 10px;
+}
+#services button{
+    width: 150px;
+    margin: 10px auto;
+}
+.img_icon {
+   margin-bottom: 10px;
+}
+
+.img_icon img {
+    width: 90px;
+    height: 95px;
+}
+
+/* Les temoignages des clients*/
+
+.temoignages{
+    margin-top: 20px;
+}
+.nos_clients{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* pour contact*/
+
+#contact
+{
+    background-color: skyblue;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#contact h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+
+#contact h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+.infoContact{
+    margin-top: 60px;
+    font-size: 20px;
+
+}
+
+/*Footer*/
+
+#footer{
+    text-align: center;
+    height: 80px;
+    background-color: #050505;
+}
+#footer{
+    padding-top: 25px;
+}

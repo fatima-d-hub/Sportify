@@ -1,0 +1,50 @@
+body {
+    background-color: #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 320px;
+    text-align: center;
+   
+}
+
+h4 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+.btn-primary {
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.connect:hover {
+    text-decoration: underline;
+}
