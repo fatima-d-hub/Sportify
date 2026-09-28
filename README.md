@@ -6,7 +6,7 @@
 
 ---
 
-## 🖼️ Aperçu
+## Aperçu
 
 
 # ![Fatimatou](https://github.com/Fatimatou-DIALLO-87/Sportify/blob/master/gif_sportify.gif)
@@ -96,6 +96,6 @@ Sportify/ <br>
 
 ---
 ### Remarques techniques importantes
--🌐 L’interface du site utilise Bootstrap via un CDN : une connexion Internet est donc nécessaire pour que le style s’affiche correctement.
+-L’interface du site utilise Bootstrap via un CDN : une connexion Internet est donc nécessaire pour que le style s’affiche correctement.
 
--✉️ Les fonctionnalités d’envoi de messages (ex. : formulaire de contact, réinitialisation de mot de passe) nécessitent la configuration d’un serveur de messagerie local compatible avec PHP, tel que Sendmail, généralement inclus avec XAMPP sur Windows.
+-Les fonctionnalités d’envoi de messages (ex. : formulaire de contact, réinitialisation de mot de passe) nécessitent la configuration d’un serveur de messagerie local compatible avec PHP, tel que Sendmail, généralement inclus avec XAMPP sur Windows.
