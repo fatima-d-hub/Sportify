@@ -1,8 +1,8 @@
-# 🏋️‍♂️  Sportify – Plateforme de Sport Interactive
+#  Sportify – Plateforme de Sport Interactive
 
 **Sportify** est une plateforme web dédiée au **sport en ligne**, permettant aux utilisateurs de découvrir des activités sportives, s’inscrire, se connecter, gérer leur profil et demander un devis pour des services personnalisés.
 
-> ⚠️ Ce projet est purement sportif et n’a **aucun lien avec Spotify**, le service de streaming musical.
+>  Ce projet est purement sportif et n’a **aucun lien avec Spotify**, le service de streaming musical.
 
 ---
 
@@ -13,7 +13,7 @@
 
 
 
-## 🚀 Fonctionnalités principales
+## Fonctionnalités principales
 
 - Création de compte et authentification
 - Espace utilisateur personnalisé (le nom de l’utilisateur connecté s’affiche suivi du boutton Déconnexion)
@@ -22,7 +22,7 @@
 - Système de demande de devis
 - Réinitialisation de mot de passe
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Frontend :** HTML, CSS, JavaScript, Bootstrap
 - **Backend :** PHP
