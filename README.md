@@ -15,12 +15,12 @@
 
 ## 🚀 Fonctionnalités principales
 
-- ✅ Création de compte et authentification
-- 👤 Espace utilisateur personnalisé (le nom de l’utilisateur connecté s’affiche suivi du boutton Déconnexion)
-- 🏋️‍♀️ Consultation d’activités sportives proposées
-- 📬 Formulaire de contact intégré
-- 📑 Système de demande de devis
-- 🔐 Réinitialisation de mot de passe
+- Création de compte et authentification
+- Espace utilisateur personnalisé (le nom de l’utilisateur connecté s’affiche suivi du boutton Déconnexion)
+- Consultation d’activités sportives proposées
+- Formulaire de contact intégré
+- Système de demande de devis
+- Réinitialisation de mot de passe
 
 ## 🛠️ Technologies utilisées
 
@@ -29,7 +29,7 @@
 - **Base de données :** MySQL 
 - **Autres :** Git pour le versionnement
 
-## 📁 Structure du projet
+## Structure du projet
 
 Sportify/ <br>
 ├── index.php                                # Page d'accueil <br>
@@ -59,7 +59,7 @@ Sportify/ <br>
 
 ### 🔧 Comment tester le projet en local
 
-#### 🖥️ Prérequis
+#### Prérequis
 
 - Avoir installé un serveur local tel que :
   - [XAMPP](https://www.apachefriends.org/fr/index.html)
@@ -70,7 +70,7 @@ Sportify/ <br>
 
 ---
 
-#### 🚀 Étapes à suivre
+#### Étapes à suivre
 
 1. **Téléchargez ou clonez le projet** :
    - Si vous avez un fichier `.zip`, décompressez-le.
@@ -95,7 +95,7 @@ Sportify/ <br>
    - Testez les boutons **"S’inscrire"**, **"Se déconnecter"**, etc.
 
 ---
-### 🧩 Remarques techniques importantes
+### Remarques techniques importantes
 -🌐 L’interface du site utilise Bootstrap via un CDN : une connexion Internet est donc nécessaire pour que le style s’affiche correctement.
 
 -✉️ Les fonctionnalités d’envoi de messages (ex. : formulaire de contact, réinitialisation de mot de passe) nécessitent la configuration d’un serveur de messagerie local compatible avec PHP, tel que Sendmail, généralement inclus avec XAMPP sur Windows.
